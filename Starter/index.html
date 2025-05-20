@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Currency Converter</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <!--<script src="script.js" defer></script>-->
+</head>
+<body>
+    <div class="container">
+        <h1 class="title">Currency Converter</h1>
+
+        <div class="form-group">
+            <label for="amount" class="label">Amount:</label>
+            <input type="number" id="amount" placeholder="Enter Amount" class="input" value="100">
+        </div>
+
+        <div class="form-group">
+            <label for="fromcurency" class="label">From Currency:</label>
+<select id="fromcurency" class="select">
+    <option value="AFN">Afghan Afghani (AFN)</option>
+    <option value="ALL">Albanian Lek (ALL)</option>
+    <option value="DZD">Algerian Dinar (DZD)</option>
+    <option value="USD">American Samoa Dollar (USD)</option>
+    <option value="EUR">Andorra Euro (EUR)</option>
+    <option value="AOA">Angolan Kwanza (AOA)</option>
+    <option value="AWG">Aruban Florin (AWG)</option>
+    <option value="AUD">Australia Dollar (AUD)</option>
+    <option value="EUR">Austria Euro (EUR)</option>
+    <option value="AZN">Azerbaijan Manat (AZN)</option>
+    <option value="BSD">Bahamian Dollar (BSD)</option>
+    <option value="BHD">Bahraini Dinar (BHD)</option>
+    <option value="BDT">Bangladeshi Taka (BDT)</option>
+    <option value="BBD">Barbadian Dollar (BBD)</option>
+    <option value="BYN">Belarusian Ruble (BYN)</option>
+    <option value="BZD">Belize Dollar (BZD)</option>
+    <option value="BIF">Burundian Franc (BIF)</option>
+    <option value="BMD">Bermudian Dollar (BMD)</option>
+    <option value="BND">Brunei Dollar (BND)</option>
+    <option value="BOB">Bolivian Boliviano (BOB)</option>
+    <option value="BRL">Brazilian Real (BRL)</option>
+    <option value="BSD">Bahamian Dollar (BSD)</option>
+    <option value="BTN">Bhutanese Ngultrum (BTN)</option>
+    <option value="BND">Brunei Dollar (BND)</option>
+    <option value="BGN">Bulgarian Lev (BGN)</option>
+    <option value="BIF">Burundian Franc (BIF)</option>
+    <option value="BMD">Bermudian Dollar (BMD)</option>
+    <option value="BND">Brunei Dollar (BND)</option>
+    <option value="BOB">Bolivian Boliviano (BOB)</option>
+    <option value="BRL">Brazilian Real (BRL)</option>
+    <option value="BSD">Bahamian Dollar (BSD)</option>
+    <option value="BTN">Bhutanese Ngultrum (BTN)</option>
+    <option value="BND">Brunei Dollar (BND)</option>
+    <option value="BGN">Bulgarian Lev (BGN)</option>
+    <option value="BIF">Burundian Franc (BIF)</option>
+    <option value="BMD">Bermudian Dollar (BMD)</option>
+    <option value="BND">Brunei Dollar (BND)</option>
+    <option value="BOB">Bolivian Boliviano (BOB)</option>
+    <option value="BRL">Brazilian Real (BRL)</option>
+    <option value="BSD">Bahamian Dollar (BSD)</option>
+    <option value="BTN">Bhutanese Ngultrum (BTN)</option>
+    <option value="BND">Brunei Dollar (BND)</option>
+    <option value="BGN">Bulgarian Lev (BGN)</option>
+    <option value="BIF">Burundian Franc (BIF)</option>
+    <option value="BMD">Bermudian Dollar (BMD)</option>
+    <option value="BND">Brunei Dollar (BND)</option>
+    <option value="BOB">Bolivian Boliviano (BOB)</option>
+    <option value="BRL">Brazilian Real (BRL)</option>
+    <option value="BSD">Bahamian Dollar (BSD)</option>
+    <option value="BTN">Bhutanese Ngultrum (BTN)</option>
+    <option value="BND">Brunei Dollar (BND)</option>
+    <option value="BGN">Bulgarian Lev (BGN)</option>
+    <option value="BIF">Burundian Franc (BIF)</option>
+    <option value="BMD">Bermudian Dollar (BMD)</option>
+    <option value="BND">Brunei Dollar (BND)</option>
+    <option value="BOB">Bolivian Boliviano (BOB)</option>
+    <option value="BRL">Brazilian Real (BRL)</option>
+    <option value="BSD">Bahamian Dollar (BSD)</option>
+    <option value="BTN">Bhutanese Ngultrum (BTN)</option>
+    <option value="BND">Brunei Dollar (BND)</option>
+    <option value="BGN">Bulgarian Lev (BGN)</option>
+    <option value="BIF">Burundian Franc (BIF)</option>
+    <option value="BMD">Bermudian Dollar (BMD)</option>
+    <option value="BND">Brunei Dollar (BND)</option>
+    <option value="BOB">Bolivian Boliviano (BOB)</option>
+    <option value="BRL">Brazilian Real (BRL)</option>
+    <option value="BSD">Bahamian Dollar (BSD)</option>
+    <option value="BTN">Bhutanese Ngultrum (BTN)</option>
+    <option value="BND">Brunei Dollar (BND)</option>
+    <option value="BGN">Bulgarian Lev (BGN)</option>
+    <option value="BIF">Burundian Franc (BIF)</option>
+    <option value="BMD">Bermudian Dollar (BMD)</option>
+    <option value="BND">Brunei Dollar (BND)</option>
+    <option value="BOB">Bolivian Boliviano (BOB)</option>
+    <option value="BRL">Brazilian Real (BRL)</option>
+    <option value="BSD">Bahamian Dollar (BSD)</option>
+    <option value="BTN">Bhutanese Ngultrum (BTN)</option>
+    <option value="BND">Brunei Dollar (BND)</option>
+    <option value="BGN">Bulgarian Lev (BGN)</option>
+    <option value="BIF">Burundian Franc (BIF)</option>
+    <option value="BMD">Bermudian Dollar (BMD)</option>
+    <option value="BND">Brunei Dollar (BND)</option>
+</select>
+        </div>
+
+        <div class="to-group">
+            <label for="tocurency" class="label">To Currency:</label>
+<select id="tocurency" class="select">
+    <option value="AFN">Afghan Afghani (AFN)</option>
+    <option value="ALL">Albanian Lek (ALL)</option>
+    <option value="DZD">Algerian Dinar (DZD)</option>
+    <option value="USD">American Samoa Dollar (USD)</option>
+    <option value="EUR">Andorra Euro (EUR)</option>
+    <option value="AOA">Angolan Kwanza (AOA)</option>
+    <option value="AWG">Aruban Florin (AWG)</option>
+    <option value="AUD">Australia Dollar (AUD)</option>
+    <option value="EUR">Austria Euro (EUR)</option>
+    <option value="AZN">Azerbaijan Manat (AZN)</option>
+    <option value="BSD">Bahamian Dollar (BSD)</option>
+    <option value="BHD">Bahraini Dinar (BHD)</option>
+    <option value="BDT">Bangladeshi Taka (BDT)</option>
+    <option value="BBD">Barbadian Dollar (BBD)</option>
+    <option value="BYN">Belarusian Ruble (BYN)</option>
+    <option value="BZD">Belize Dollar (BZD)</option>
+    <option value="BIF">Burundian Franc (BIF)</option>
+    <option value="BMD">Bermudian Dollar (BMD)</option>
+    <option value="BND">Brunei Dollar (BND)</option>
+    <option value="BOB">Bolivian Boliviano (BOB)</option>
+    <option value="BRL">Brazilian Real (BRL)</option>
+    <option value="BSD">Bahamian Dollar (BSD)</option>
+    <option value="BTN">Bhutanese Ngultrum (BTN)</option>
+    <option value="BND">Brunei Dollar (BND)</option>
+    <option value="BGN">Bulgarian Lev (BGN)</option>
+    <option value="BIF">Burundian Franc (BIF)</option>
+    <option value="BMD">Bermudian Dollar (BMD)</option>
+    <option value="BND">Brunei Dollar (BND)</option>
+    <option value="BOB">Bolivian Boliviano (BOB)</option>
+    <option value="BRL">Brazilian Real (BRL)</option>
+    <option value="BSD">Bahamian Dollar (BSD)</option>
+    <option value="BTN">Bhutanese Ngultrum (BTN)</option>
+    <option value="BND">Brunei Dollar (BND)</option>
+    <option value="BGN">Bulgarian Lev (BGN)</option>
+    <option value="BIF">Burundian Franc (BIF)</option>
+    <option value="BMD">Bermudian Dollar (BMD)</option>
+    <option value="BND">Brunei Dollar (BND)</option>
+    <option value="BOB">Bolivian Boliviano (BOB)</option>
+    <option value="BRL">Brazilian Real (BRL)</option>
+    <option value="BSD">Bahamian Dollar (BSD)</option>
+    <option value="BTN">Bhutanese Ngultrum (BTN)</option>
+    <option value="BND">Brunei Dollar (BND)</option>
+    <option value="BGN">Bulgarian Lev (BGN)</option>
+    <option value="BIF">Burundian Franc (BIF)</option>
+    <option value="BMD">Bermudian Dollar (BMD)</option>
+    <option value="BND">Brunei Dollar (BND)</option>
+    <option value="BOB">Bolivian Boliviano (BOB)</option>
+    <option value="BRL">Brazilian Real (BRL)</option>
+    <option value="BSD">Bahamian Dollar (BSD)</option>
+    <option value="BTN">Bhutanese Ngultrum (BTN)</option>
+    <option value="BND">Brunei Dollar (BND)</option>
+    <option value="BGN">Bulgarian Lev (BGN)</option>
+    <option value="BIF">Burundian Franc (BIF)</option>
+    <option value="BMD">Bermudian Dollar (BMD)</option>
+    <option value="BND">Brunei Dollar (BND)</option>
+    <option value="BOB">Bolivian Boliviano (BOB)</option>
+    <option value="BRL">Brazilian Real (BRL)</option>
+    <option value="BSD">Bahamian Dollar (BSD)</option>
+    <option value="BTN">Bhutanese Ngultrum (BTN)</option>
+    <option value="BND">Brunei Dollar (BND)</option>
+    <option value="BGN">Bulgarian Lev (BGN)</option>
+    <option value="BIF">Burundian Franc (BIF)</option>
+    <option value="BMD">Bermudian Dollar (BMD)</option>
+    <option value="BND">Brunei Dollar (BND)</option>
+    <option value="BOB">Bolivian Boliviano (BOB)</option>
+    <option value="BRL">Brazilian Real (BRL)</option>
+    <option value="BSD">Bahamian Dollar (BSD)</option>
+    <option value="BTN">Bhutanese Ngultrum (BTN)</option>
+    <option value="BND">Brunei Dollar (BND)</option>
+    <option value="BGN">Bulgarian Lev (BGN)</option>
+    <option value="BIF">Burundian Franc (BIF)</option>
+    <option value="BMD">Bermudian Dollar (BMD)</option>
+    <option value="BND">Brunei Dollar (BND)</option>
+    <option value="BOB">Bolivian Boliviano (BOB)</option>
+    <option value="BRL">Brazilian Real (BRL)</option>
+    <option value="BSD">Bahamian Dollar (BSD)</option>
+    <option value="BTN">Bhutanese Ngultrum (BTN)</option>
+    <option value="BND">Brunei Dollar (BND)</option>
+    <option value="BGN">Bulgarian Lev (BGN)</option>
+    <option value="BIF">Burundian Franc (BIF)</option>
+    <option value="BMD">Bermudian Dollar (BMD)</option>
+    <option value="BND">Brunei Dollar (BND)</option>
+    </select>
+        </div>
+
+        <button class="button" id="button">Convert</button>
+
+        <div class="res">
+            <input type="text" class="input" id="result">
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
